@@ -4,54 +4,105 @@
   }
 header{
     background: #ffffff;
-    border: #cccccc;
+    padding: 30px;
+    border-bottom: #cccccc solid;
+    overflow: auto;
+    clear: both;
+    width: 100%
+    
 }
 .name{
     background: #4aaaa5;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 10%;
+    margin-left: 11.75%;
+    margin-bottom: -30px;
+    margin-top: -30px;
     padding: 20px;
     width: 20%;
-    overflow: auto;
-    clear: both;
     text-align: center;
     box-sizing: border-box;
 }
+#btn-group{
+    margin-right:14%;
+}
 #left {
-    float: right;
+    
+    background:#ffffff; 
+    color: #777777;
+    border: #777777 1px solid;
+    font-size: 16px;
+    text-align: center;
+    float:right;
     width: 10%;
     font-family: Arial, Helvetica, sans-serif;
   }
   
   #center {
-    float: right;
+    float:right;
+    background: #ffffff;
+    color: #777777;
+    text-align: center;
+    font-size: 16px;
+    border: #777777 1px solid;
     width: 10%;
     font-family: Arial, Helvetica, sans-serif;
   }
   
   #right {
-    float: right;
+    float:right;
+    background: #ffffff;
+    color: #777777;
+    text-align: center;
+    font-size: 16px;
+    border: #777777 1px solid;
     width: 10%;
     font-family: Arial, Helvetica, sans-serif;
   }
   p{
-      line-height: 32px;
+      line-height: 40px;
+      color: #777777;
       margin: 20px;
       font-family: Arial, Helvetica, sans-serif;
+  }
+  .about{
+      padding-left: 20px;
+      padding-top: 20px;
+      color:#4aaaa5;
+  }
+  .line{
+    padding: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:40px;
+    background: #cccccc;
   }
   img{
       height:200px;
       width: 200px;
+      margin-left: 20px;
       margin-right: 20px;
       float: left;
   }
-body{
-    background:lightgray;
+  .me{
     box-sizing: border-box;
-    width: 960px;
+    height: 475px;
+    width:960px;
+    margin-left:180px;
+    text-align: center;
+    background: white;
+  }
+body{
+    background:lavender;
+    margin:0px;
+}
+
+h5{
+    text-align: center;
 }
 footer {
-    padding: 20px;
-    clear: both;
+    margin-top: 80px;
+    border-top: #4aaaa5 solid 3px;
+    padding: 10px;
+    background: #666666;
   }
